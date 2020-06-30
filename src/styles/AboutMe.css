@@ -1,0 +1,13 @@
+.proimage {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 30px;
+    margin-left: -12px;
+}
+
+ul {
+    list-style-type: circle;
+  }
+  
