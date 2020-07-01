@@ -1,6 +1,10 @@
 import React from 'react';
-import AboutMe from './components/AboutMe/AboutMe';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from "./pages/Contact";
 import Nav from './components/Nav/Nav';
+// import About from 
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import './App.css';
@@ -8,10 +12,18 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-        <Nav />
-        <Header />
-        <AboutMe />
-        <Footer />
+      <Router>
+        <div>
+          <Nav />
+          <Header />
+          <Switch>
+            <Route exact path="/" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
     </div>
   );
 }

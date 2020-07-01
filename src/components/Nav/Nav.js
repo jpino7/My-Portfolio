@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './jpaesthiticOfficialLogo.jpg'
 import Nav from 'react-bootstrap/Nav'
+import { Link } from 'react-router-dom';
 import '../../styles/Nav.css'
 
 function Navbar() {
@@ -10,15 +11,15 @@ function Navbar() {
                 {/* <!-- Logo --> */}
                 <img className="logo" src={Logo} alt="Logo" />
                 {/* <!-- Navigation links (hidden by default) --> */}
-                <Nav className="justify-content-end" variant="pills" activeKey="/home">
+                <Nav className="justify-content-end" variant="pills" activeKey="/">
                     <Nav.Item>
-                        <Nav.Link href="/home">About</Nav.Link>
+                        <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>About</Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-1">Portfolio</Nav.Link>
+                        <Link to="/portfolio" className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-2">Contact</Nav.Link>
+                        <Link to="/contact" className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>Contact</Link>
                     </Nav.Item>
                 </Nav>
             </nav>

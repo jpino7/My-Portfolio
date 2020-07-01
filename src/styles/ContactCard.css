@@ -1,0 +1,10 @@
+.card {
+    background-color: #2F4F4F;
+    color: white;
+    opacity: 0.9;
+    border-radius: 1em;
+  }
+  
+  .card-body{
+    font-weight: bold;
+  }
