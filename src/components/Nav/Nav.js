@@ -13,13 +13,13 @@ function Navbar() {
                 {/* <!-- Navigation links (hidden by default) --> */}
                 <Nav className="justify-content-end" variant="pills" activeKey="/">
                     <Nav.Item>
-                        <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>About</Link>
+                        <Link to="/" className={window.location.pathname === "/" ? "nav-link" : "nav-link"}>About</Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Link to="/portfolio" className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
+                        <Link to="/portfolio" className={window.location.pathname === "/Portfolio" ? "nav-link" : "nav-link"}>Portfolio</Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Link to="/contact" className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>Contact</Link>
+                        <Link to="/contact" className={window.location.pathname === "/Contact" ? "nav-link" : "nav-link"}>Contact</Link>
                     </Nav.Item>
                 </Nav>
             </nav>
