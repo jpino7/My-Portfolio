@@ -4,12 +4,9 @@ import '../../styles/Footer.css'
 
 function Footer() {
     return (
-
-        <Footer className="footer">
-            <div className="copyright">&copy; 2020</div>
-            <img className="JPHeart" src={FooterLogo} alt="FooterLogo" /> 
-            <p>aesthetic • Web Design</p>
-        </Footer>
+        <footer className="footer">&copy; 2020
+                <img className="JPHeart" src={FooterLogo} alt="FooterLogo" />aesthetic • Web Design
+        </footer >
     )
 };
 

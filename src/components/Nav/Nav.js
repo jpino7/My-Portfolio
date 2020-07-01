@@ -10,7 +10,7 @@ function Navbar() {
                 {/* <!-- Logo --> */}
                 <img className="logo" src={Logo} alt="Logo" />
                 {/* <!-- Navigation links (hidden by default) --> */}
-                <Nav className="justify-content-end" activeKey="/home">
+                <Nav className="justify-content-end" variant="pills" activeKey="/home">
                     <Nav.Item>
                         <Nav.Link href="/home">About</Nav.Link>
                     </Nav.Item>
@@ -20,7 +20,7 @@ function Navbar() {
                     <Nav.Item>
                         <Nav.Link eventKey="link-2">Contact</Nav.Link>
                     </Nav.Item>
-                </Nav>      
+                </Nav>
             </nav>
         </>
     )
