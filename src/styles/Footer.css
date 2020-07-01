@@ -10,3 +10,8 @@
     width: 16px;
     height: 16px;
 }
+
+.footer-title {
+    font-family: 'Sacramento', cursive;
+    font-size: large;
+}

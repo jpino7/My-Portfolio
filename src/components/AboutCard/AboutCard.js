@@ -46,8 +46,8 @@ function AboutCard() {
                             your audience. I am capable of designing websites with a focus on mobile-first design that engages the
                             audience while maximizing the user experience.</p>
         
-                            <p>My husband has always told me <b>"If you love what you do, you will never work a day in your
-                            life!"</b> This is my motivation and why I have chosen to pursue Web Design!!</p>
+                            <p>My husband has always told me <span>"If you love what you do, you will never work a day in your
+                            life!"</span> This is my motivation and why I have chosen to pursue Web Design!!</p>
                         </section>
                     </Card.Body >
                 </Card >
