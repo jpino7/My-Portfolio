@@ -1,10 +1,11 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card'
 import '../../styles/ContactCard.css'
 
 
 function ContactCard() {
     return (
-        <div>
+        <Card.Body >
             <div className="row">
                 <div className="row-group col-md-7" id="socialmedia">
                     {/* <a href="https://www.linkedin.com/in/joanna-pino-0b627419a/" ClassName="fa fa-linkedin" target="_blank"></a>
@@ -45,7 +46,7 @@ function ContactCard() {
 
 
 
-        </div>
+        </Card.Body>
     )
 }
 
