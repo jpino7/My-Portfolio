@@ -8,3 +8,22 @@
   .card-body{
     font-weight: bold;
   }
+
+.fa-linkedin, .fa-github {
+    color: white;
+    font-size: xx-large;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+.fa-envelope {
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #2F4F4F;
+}

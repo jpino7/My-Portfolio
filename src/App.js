@@ -4,7 +4,6 @@ import About from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from "./pages/Contact";
 import Nav from './components/Nav/Nav';
-// import About from 
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import './App.css';

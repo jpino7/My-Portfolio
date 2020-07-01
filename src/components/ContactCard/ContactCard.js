@@ -3,31 +3,31 @@ import Card from 'react-bootstrap/Card'
 import '../../styles/ContactCard.css'
 
 
+
 function ContactCard() {
     return (
         <Card.Body >
             <div className="row">
                 <div className="row-group col-md-7" id="socialmedia">
-                    {/* <a href="https://www.linkedin.com/in/joanna-pino-0b627419a/" ClassName="fa fa-linkedin" target="_blank"></a>
-                    <a href="https://github.com/jpino7" className="fa fa-github" target="_blank"></a> */}
+                    <a href="https://www.linkedin.com/in/joanna-pino-0b627419a/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer"> </a>
+                    <a href="https://github.com/jpino7" className="fa fa-github" target="_blank" rel="noopener noreferrer"> </a>
                 </div>
                 <div className="row-group col-md-7">
                     <h3>Contact Me</h3>
                 </div>
                 <div className="row-group col-md-7">
-                    <i id="email" className="fas fa-envelope"></i>
-                    <h5>pino3789@gmail.com</h5>
+                    <i className="fas fa-envelope"></i>
+                    <a href="mailto:pino3789@gmail.com" target="_blank" rel="noopener noreferrer"><h5>pino3789@gmail.com</h5> </a>
                 </div>
                 <div className="row-group col-md-7">
-                    <i id="phone" className="fas fa-mobile"></i>
+                    <i className="fas fa-mobile"></i>
                     <h5>520.661.9147</h5>
                 </div>
                 <div className="row-group col-md-7">
-                    <i id="resume" className="fas fa-briefcase"></i>
-                    {/* <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b0d23442-1cd2-4f82-8a4b-1a1806d209a6"
-                        target="_blank">
+                    <i className="fas fa-briefcase"></i>
+                    <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b0d23442-1cd2-4f82-8a4b-1a1806d209a6" target="_blank" rel="noopener noreferrer">
                         <h5>Resume</h5>
-                    </a> */}
+                    </a>
                 </div>
             </div>
 
