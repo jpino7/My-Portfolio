@@ -4,6 +4,10 @@
     opacity: 0.9;
 }
 
+.card-body{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .proimage {
     width: 250px;
     height: 300px;
@@ -19,6 +23,7 @@ section {
 
 span {
     font-weight: bold;
+    font-style: italic;
   }
 
 ul {

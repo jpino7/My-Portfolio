@@ -50,7 +50,7 @@ function AboutCard() {
                             life!"</span> This is my motivation and why I have chosen to pursue Web Design!!</p>
                         </section>
                     </Card.Body >
-                </Card >
+                </Card>
             )
         };
 

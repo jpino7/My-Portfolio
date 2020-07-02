@@ -8,10 +8,20 @@
   .card-body{
     font-weight: bold;
   }
+  .row {
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    text-decoration-line: overline;
+  }
 
 .fa-linkedin, .fa-github {
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
     margin-right: 10px;
     margin-bottom: 20px;
   }
@@ -30,4 +40,8 @@ a:hover {
 
 p {
   font-weight: lighter;
+}
+
+.blockquote-footer, .Source {
+  color: white;
 }

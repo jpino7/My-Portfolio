@@ -108,7 +108,7 @@ function PortfolioCard() {
                     </div>
                 </div>
             </div>
-        </Card.Body >
+        </Card.Body>
     )
 };
 
