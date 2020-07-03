@@ -9,6 +9,7 @@ function AboutCard() {
             <Card className="aboutMe">
                     <Card.Body className="card-body">
                         <h3>About Me</h3>
+                        <h4 className="name">Joanna R. Pino</h4>
                         <img className="proimage" src={Pic} alt="Pic" />
                         <section className="text">
                             As a licensed and certified pharmacy technician for the last 9 years, I always thought that I

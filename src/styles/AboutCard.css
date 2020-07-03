@@ -8,6 +8,12 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.name {
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+}
+
 .proimage {
     width: 250px;
     height: 300px;
