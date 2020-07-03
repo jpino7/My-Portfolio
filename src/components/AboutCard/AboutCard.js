@@ -53,7 +53,6 @@ function AboutCard() {
                                 <li>Node.js</li>
                                 <li>React</li>
                                 <li>Mobile-responsive web design</li>
-
                             </ul>
 
                             With these new skills I strive to turn your ideas into creativity for
