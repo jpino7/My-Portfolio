@@ -26,7 +26,7 @@ function ContactCard() {
                     </div>
                     <div className="row-group col-md-7">
                         <i className="fas fa-briefcase"></i>
-                        <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b0d23442-1cd2-4f82-8a4b-1a1806d209a6" target="_blank" rel="noopener noreferrer">
+                        <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:167be073-c3b5-4e0a-9e95-7e2052964179" target="_blank" rel="noopener noreferrer">
                             <h5>Resume</h5>
                         </a>
                     </div>
