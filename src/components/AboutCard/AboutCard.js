@@ -20,7 +20,7 @@ function AboutCard() {
                             moving forward in my pharmacy career and was given the opportunity to serve patients
                             nationwide
                             while providing software
-                            support for a Medication Therapy Management application through my current employer. I am
+                            support for RxCompanion (a Medication Therapy Management application) through my current employer. I am
                             currently
                             employed at SinfoniaRx (a Tabula Rasa HealthCare Company)
                             as a Software Support
@@ -41,9 +41,22 @@ function AboutCard() {
                             where it led me to pursue my continued
                             education through the University of Arizona Coding Boot Camp.</p>
         
-                            <p>I am an aspiring web designer with newly developed skills in HTML, CSS, JavaScript, jQuery,
-                            JSON,
-                            AJAX, Node.js, and responsive web design. I strive to turn your ideas into creativity for
+                            <p>I am an aspiring web designer with newly developed skills in:
+                            
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>JSON</li>
+                                <li>AJAX</li>
+                                <li>Node.js</li>
+                                <li>React</li>
+                                <li>Mobile-responsive web design</li>
+
+                            </ul>
+
+                            With these new skills I strive to turn your ideas into creativity for
                             your audience. I am capable of designing websites with a focus on mobile-first design that engages the
                             audience while maximizing the user experience.</p>
         
