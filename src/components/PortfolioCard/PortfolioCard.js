@@ -9,6 +9,8 @@ import READMEDemo from '../../utils/images/Demo.gif.gif'
 import EatDaBurger from '../../utils/images/EatDaBurger.png'
 import LeadAstray from '../../utils/images/LeadAstray.png'
 import BudgetTracker from '../../utils/images/BudgetTracker.png'
+import GoogleBooksSearch from '../../utils/images/GoogleBooksSearch.png'
+
 
 
 function PortfolioCard() {
@@ -104,6 +106,16 @@ function PortfolioCard() {
                         <div className="card-body">
                             <a className="card-title" href="https://jpino7.github.io/Budget-Tracker/" target="_blank" rel="noopener noreferrer">Budget Tracker</a>
                             <p className="card-text">A budget tracking app created with React. This app was created to help keep track of your expenses!</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col mb-4">
+                    <div className="card">
+                        <a href="https://github.com/jpino7/GoogleBooksSearch" target="_blank" rel="noopener noreferrer"><img src={GoogleBooksSearch}
+                                        title="Google Books Search Repo" className="card-img-top" alt="Google Books Search App"></img></a>
+                        <div className="card-body">
+                            <a className="card-title" href="https://mysterious-springs-66917.herokuapp.com/" target="_blank" rel="noopener noreferrer">Google Books Search</a>
+                            <p className="card-text">A Google Books Search app created with React using Google Books API. This app was created so users can save books to review or purchase later.</p>
                         </div>
                     </div>
                 </div>
