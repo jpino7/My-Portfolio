@@ -8,7 +8,7 @@ function AboutCard() {
     return (
             <Card className="aboutMe">
                     <Card.Body className="card-body">
-                        <h3>About Me</h3>
+                        <h3 className="aboutHeader">About Me</h3>
                         <h4 className="name">Joanna R. Pino</h4>
                         <img className="proimage" src={Pic} alt="Pic" />
                         <section className="text">

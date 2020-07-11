@@ -4,6 +4,10 @@
     opacity: 0.9;
 }
 
+.aboutHeader {
+  margin-left: 0px;
+}
+
 .card-body{
   padding-top: 10px;
   padding-bottom: 10px;
