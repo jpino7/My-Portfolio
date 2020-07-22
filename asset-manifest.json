@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.20f648fa.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.8cdb30cb.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.8cdb30cb.chunk.js.map",
+    "main.js": "/My-Portfolio/static/js/main.8d709e70.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.8d709e70.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.2dca773a.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.2dca773a.js.map",
-    "static/js/2.1e9ba3ec.chunk.js": "/My-Portfolio/static/js/2.1e9ba3ec.chunk.js",
-    "static/js/2.1e9ba3ec.chunk.js.map": "/My-Portfolio/static/js/2.1e9ba3ec.chunk.js.map",
+    "static/js/2.d7d9d661.chunk.js": "/My-Portfolio/static/js/2.d7d9d661.chunk.js",
+    "static/js/2.d7d9d661.chunk.js.map": "/My-Portfolio/static/js/2.d7d9d661.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "precache-manifest.97d7fdc6c0991c6e0d20ecc68375c174.js": "/My-Portfolio/precache-manifest.97d7fdc6c0991c6e0d20ecc68375c174.js",
+    "precache-manifest.24720c73cb4d6316948e1a3f8c2c990f.js": "/My-Portfolio/precache-manifest.24720c73cb4d6316948e1a3f8c2c990f.js",
     "service-worker.js": "/My-Portfolio/service-worker.js",
     "static/css/main.20f648fa.chunk.css.map": "/My-Portfolio/static/css/main.20f648fa.chunk.css.map",
-    "static/js/2.1e9ba3ec.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.1e9ba3ec.chunk.js.LICENSE.txt",
+    "static/js/2.d7d9d661.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.d7d9d661.chunk.js.LICENSE.txt",
     "static/media/BudgetTracker.png": "/My-Portfolio/static/media/BudgetTracker.33040bbe.png",
     "static/media/CodeQuiz.png": "/My-Portfolio/static/media/CodeQuiz.b38e3f18.png",
     "static/media/Demo.gif.gif": "/My-Portfolio/static/media/Demo.gif.4ea64536.gif",
@@ -20,6 +20,7 @@
     "static/media/LaughyTasky.png": "/My-Portfolio/static/media/LaughyTasky.f98fff1e.png",
     "static/media/LeadAstray.png": "/My-Portfolio/static/media/LeadAstray.f80ec851.png",
     "static/media/Pic.jpg": "/My-Portfolio/static/media/Pic.66035937.jpg",
+    "static/media/Spiral.png": "/My-Portfolio/static/media/Spiral.df121cdb.png",
     "static/media/TeamGenerator.png": "/My-Portfolio/static/media/TeamGenerator.10b38b02.png",
     "static/media/WeatherorNot.png": "/My-Portfolio/static/media/WeatherorNot.502416e9.png",
     "static/media/App.css": "/My-Portfolio/static/media/dark-ocean.ad725b37.jpg",
@@ -28,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2dca773a.js",
-    "static/js/2.1e9ba3ec.chunk.js",
+    "static/js/2.d7d9d661.chunk.js",
     "static/css/main.20f648fa.chunk.css",
-    "static/js/main.8cdb30cb.chunk.js"
+    "static/js/main.8d709e70.chunk.js"
   ]
 }
