@@ -10,6 +10,7 @@ import EatDaBurger from '../../utils/images/EatDaBurger.png'
 import LeadAstray from '../../utils/images/LeadAstray.png'
 import BudgetTracker from '../../utils/images/BudgetTracker.png'
 import GoogleBooksSearch from '../../utils/images/GoogleBooksSearch.png'
+import Spiral from '../../utils/images/Spiral.png'
 
 
 
@@ -116,6 +117,16 @@ function PortfolioCard() {
                         <div className="card-body">
                             <a className="card-title" href="https://mysterious-springs-66917.herokuapp.com/" target="_blank" rel="noopener noreferrer">Google Books Search</a>
                             <p className="card-text">A Google Books Search app created with React using Google Books API. This app was created so users can save books to review or purchase later.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col mb-4">
+                    <div className="card">
+                        <a href="https://github.com/lvarnum/Spiral" target="_blank" rel="noopener noreferrer"><img src={Spiral}
+                                        title="Spiral Repo" className="card-img-top" alt="Spiral App"></img></a>
+                        <div className="card-body">
+                            <a className="card-title" href="https://spiral-planner.herokuapp.com/" target="_blank" rel="noopener noreferrer">Google Books Search</a>
+                            <p className="card-text">Spiral app created with React and built with Express, Material-UI, Morgan, Sequelize, Mongoose, and Passport. This app is for students needing a simple and useful way of keeping track of class schedules and assignments.</p>
                         </div>
                     </div>
                 </div>
