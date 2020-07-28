@@ -11,12 +11,12 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-      <Router>
+      <Router basename="/My-Portfolio">
         <div>
           <Nav />
           <Header />
           <Switch>
-            <Route basename="/My-Portfolio" component={About} />
+            <Route exact path="/My-Portfolio" component={About} />
             <Route exact path="/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
