@@ -11,8 +11,8 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-      <Router>
       <BrowserRouter basename="/My-Portfolio" />
+      <Router>
         <div>
           <Nav />
           <Header />
@@ -23,7 +23,7 @@ function App() {
           </Switch>
           <Footer />
         </div>
-        </Router>
+      </Router>
     </div>
   );
 }
