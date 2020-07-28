@@ -16,7 +16,7 @@ function App() {
           <Nav />
           <Header />
           <Switch>
-            <BrowserRouter exact path="/My-Portfolio" component={About} />
+            <BrowserRouter baseline="/My-Portfolio" />
             <Route exact path="/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
