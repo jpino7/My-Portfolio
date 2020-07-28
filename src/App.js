@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 import About from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from "./pages/Contact";
@@ -11,6 +11,7 @@ import './App.css';
 function App() {
   return (
     <div className="container">
+      <BrowserRouter basename="/My-Portfolio" />
       <Router>
         <div>
           <Nav />
