@@ -22,13 +22,13 @@ function AboutCard() {
                             while providing software
                             support for RxCompanion (a Medication Therapy Management application) through my current employer. I am
                             currently
-                            employed at SinfoniaRx (a Tabula Rasa HealthCare Company)
+                            employed at <a href='https://www.sinfoniarx.com/'>SinfoniaRx</a> <a href='https://www.tabularasahealthcare.com/'>(a Tabula Rasa HealthCare Company) </a>
                             as a Software Support
                             Specialist. While in my current position I have been
                             exposed to most things development such as:
         
                             <ul>
-                                <li>Code</li>
+                                <li>PHP Code</li>
                                 <li>Database (DBVisualizer)</li>
                                 <li>Quality Assurance</li>
                                 <li>Product Validation</li>
@@ -60,7 +60,7 @@ function AboutCard() {
 
                             With these new skills I strive to turn your ideas into creativity for
                             your audience. I am capable of designing websites with a focus on mobile-first design that engages the
-                            audience while maximizing the user experience.</p>
+                            audience while maximizing user experience.</p>
         
                             <p>My husband has always told me <span>"If you love what you do, you will never work a day in your
                             life!"</span> This is my motivation and why I have chosen to pursue Web Design!!</p>

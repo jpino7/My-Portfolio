@@ -39,4 +39,9 @@ span {
 ul {
     list-style-type: circle;
   }
+
+  a:hover {
+    color: grey;
+    background-color: white;
+  }
   

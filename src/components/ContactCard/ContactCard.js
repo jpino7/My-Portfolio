@@ -25,9 +25,18 @@ function ContactCard() {
                         <h5>520.661.9147</h5>
                     </div>
                     <div className="row-group col-md-7">
+                        <h4 className="ProMaterials">Professional Materials:</h4>
+                    </div>
+                    <div className="row-group col-md-7">
                         <i className="fas fa-briefcase"></i>
                         <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:167be073-c3b5-4e0a-9e95-7e2052964179" target="_blank" rel="noopener noreferrer">
                             <h5>Resume</h5>
+                        </a>
+                    </div>
+                    <div className="row-group col-md-7">
+                        <i className="fas fa-file-code" style={{fontSize: '20px'}}></i>
+                        <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e5a45db1-6fb5-41df-9be1-6c7759c8b09f" target="_blank" rel="noopener noreferrer">
+                            <h5>Certificate in Full Stack Web Development (Continuing and Professional Education)</h5>
                         </a>
                     </div>
                 </div>
