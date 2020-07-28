@@ -11,19 +11,19 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-      <BrowserRouter basename="/My-Portfolio" />
       <Router>
         <div>
           <Nav />
           <Header />
           <Switch>
+            <BrowserRouter exact path="/My-Portfolio" component={About} />
             <Route exact path="/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
           <Footer />
         </div>
-      </Router>
+        </Router>
     </div>
   );
 }
