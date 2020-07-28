@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, BrowserRouter } from "react-router-dom";
 import About from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from "./pages/Contact";
@@ -16,7 +16,7 @@ function App() {
           <Nav />
           <Header />
           <Switch>
-            <Route exact path="/My-Portfolio" component={About} />
+            <BrowserRouter basename="/My-Portfolio" />
             <Route exact path="/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
