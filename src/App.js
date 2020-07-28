@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="container">
       <Router>
+      <BrowserRouter basename="/My-Portfolio" />
         <div>
           <Nav />
           <Header />
           <Switch>
-            <BrowserRouter basename="/My-Portfolio" />
             <Route exact path="/" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
