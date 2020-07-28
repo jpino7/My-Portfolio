@@ -25,7 +25,7 @@ function AboutCard() {
                             employed at <a href='https://www.sinfoniarx.com/'>SinfoniaRx</a> <a href='https://www.tabularasahealthcare.com/'>(a Tabula Rasa HealthCare Company) </a>
                             as a Software Support
                             Specialist. While in my current position I have been
-                            exposed to most things development such as:
+                            <span className="exposed"> exposed</span> to most things development such as:
         
                             <ul>
                                 <li>PHP Code</li>
@@ -41,7 +41,7 @@ function AboutCard() {
                             where it led me to pursue my continued
                             education through the University of Arizona Coding Boot Camp.</p>
         
-                            <p>I am an aspiring web designer with newly developed skills in:
+                            <p>I am an aspiring web designer with <span className="skills"> newly developed skills</span> in:
                             
                             <ul>
                                 <li>HTML</li>
@@ -62,7 +62,7 @@ function AboutCard() {
                             your audience. I am capable of designing websites with a focus on mobile-first design that engages the
                             audience while maximizing user experience.</p>
         
-                            <p>My husband has always told me <span>"If you love what you do, you will never work a day in your
+                            <p>My husband has always told me <span className="motivation">"If you love what you do, you will never work a day in your
                             life!"</span> This is my motivation and why I have chosen to pursue Web Design!!</p>
                         </section>
                     </Card.Body >

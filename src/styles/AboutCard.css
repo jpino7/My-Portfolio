@@ -31,7 +31,11 @@ section {
     font-weight: lighter;
   }
 
-span {
+ .exposed, .skills {
+    font-style: italic;
+  }
+
+.motivation {
     font-weight: bold;
     font-style: italic;
   }
